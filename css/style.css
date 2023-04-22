@@ -1,0 +1,185 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color: white;
+  font-family: 'Baloo Tammudu 2', cursive;
+
+  margin: 0px;
+  padding: 0px;
+  background-image: url(image2/pexels-victor-freitas-841134.jpg);
+  background-size: 25%;
+  background-size: cover;
+  /* width: 100%;*/
+  height: 1000px;
+
+}
+
+
+
+
+/* 
+.backgroundimage {
+  background-size: cover;
+  background-image: url(img/pexels-cottonbro-7201140.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+} */
+
+.left {
+  /* border: 2px solid violet; */
+  display: inline-block;
+  position: absolute;
+  left: 50px;
+  top: 20px;
+}
+
+.left div {
+  text-align: center;
+  line-height: 11px;
+  font-size: 21px;
+}
+
+.mid {
+  margin: 33px auto;
+  display: block;
+  width: 38%;
+  /* border: 2px solid rgb(113, 183, 43); */
+}
+
+.right {
+  position: absolute;
+  right: 34px;
+  top: 20px;
+  /* border: 2px solid rgb(169, 96, 33); */
+  display: inline-block;
+
+}
+
+.navbar {
+  display: inline;
+
+
+}
+
+.navbar li {
+
+  display: inline;
+  font-size: 22px;
+
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 67px 30px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: aqua;
+}
+
+.left img {
+  width: 126px;
+  filter: invert(100%);
+}
+
+.btn {
+  font-family: 'Baloo Tammudu 2', cursive;
+  margin: 0px 8px;
+  background-color: black;
+  color: white;
+  padding: 0px 24px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  color: rgb(145, 239, 124);
+  background-color: rgb(187, 185, 183);
+}
+
+.container {
+  border: 2px solid #fafafa;
+  margin: 98px 12px;
+  padding: 30px 48px;
+  width: 22%;
+  border-radius: 20px;
+
+}
+
+.form-group input {
+  text-align: left;
+  display: block;
+  width: 300px;
+  padding: 10px;
+  border: 2px solid black;
+  margin: 6px auto;
+  border-radius: 8px;
+
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container button {
+  display: block;
+  width: 38%;
+  margin: 13px auto;
+}
+
+.container {
+  border: 2px solid rgb(250, 250, 250);
+  margin: -64px 1182px;
+  padding: 11px 29px;
+  width: 22%;
+  border-radius: 20px;
+  background-color: rgb(189 214 214);
+}
+
+h3 {
+  font-family: SohoGothicPro-MediumItalic;
+  color: #c894ffc7;
+  font-size: 4.5rem;
+  margin-bottom: 12px;
+  padding: 8px 489px;
+}
+
+.form-group input {
+  text-align: left;
+  display: block;
+  width: 300px;
+  padding: 10px;
+  border: 2px solid black;
+  margin: 6px auto;
+  border-radius: 8px;
+
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container button {
+  display: block;
+  width: 38%;
+  margin: 13px auto;
+}
+
+
+@media only screen and (max-width: 600px) {
+  header nav {
+    display: none;
+  }
+
+
+}
